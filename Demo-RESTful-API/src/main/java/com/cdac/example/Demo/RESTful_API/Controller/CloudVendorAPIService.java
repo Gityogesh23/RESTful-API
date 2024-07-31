@@ -3,6 +3,10 @@ package com.cdac.example.Demo.RESTful_API.Controller;
 import com.cdac.example.Demo.RESTful_API.model.CloudVendor;
 import org.springframework.web.bind.annotation.*;
 
+/*
+we are creating cloudVendorAPIService  which should serving an get api which should contains getCloudVendorDetails()
+which should be serving the get request B'Z we put an annotation RequestMapping on it.
+ */
 @RestController//how spring comes to know its controller =>hence this annotations indicates.
 @RequestMapping("/cloudvendor")//how springboot knows from which
 public class CloudVendorAPIService {
