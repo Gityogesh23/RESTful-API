@@ -10,7 +10,7 @@ which should be serving the get request B'Z we put an annotation RequestMapping 
 @RestController//how spring comes to know its controller =>hence this annotations indicates.
 @RequestMapping("/cloudvendor")//how springboot knows from which
 public class CloudVendorAPIService {
-    CloudVendor cloudVendor;
+    CloudVendor cloudVendor;//b'z we r returning object of CloudVendor class direct at start by hardcoded values.
     @GetMapping("{vendorId}")//we are creating get method and to know spring-boot app we use annotation.we r mapping
     //request with vendoId attribute
 
